@@ -1,0 +1,32 @@
+{
+ "artifact": {
+  "artifact_id": "result_false_contradicts",
+  "claimed_state": "Verified Fact",
+  "context": {},
+  "evidence": [
+   {
+    "integrity_hash": "h",
+    "key_id": "cca2ba4e22252230",
+    "provenance": "A",
+    "record_id": "r1",
+    "result": true,
+    "signature": "vYDf6I3Bhp5phC4hx8urt+rdROBmXzA24h4S94EhEPSR8G7A99/IEk/34SFH4SVanQaI31a8Gr0SRvSrhvW/Ag==",
+    "theta": 0.9,
+    "timestamp": "2026-09-06T12:00:00Z",
+    "verifier_id": "v1"
+   },
+   {
+    "integrity_hash": "h",
+    "key_id": "5360925ba455e21a",
+    "provenance": "B",
+    "record_id": "r2",
+    "result": false,
+    "signature": "0lA6WTMdrCbC2CBiqeX6JnZIlRo7MQIRz+CfEab6n1R0NxLTwy9vYPkQZKuYqd20suuv7H723XE1i6YXh55KAw==",
+    "theta": 0.9,
+    "timestamp": "2026-09-06T12:00:00Z",
+    "verifier_id": "v2"
+   }
+  ]
+ },
+ "use_test_registry": true
+}

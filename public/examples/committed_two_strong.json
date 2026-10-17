@@ -1,0 +1,32 @@
+{
+ "artifact": {
+  "artifact_id": "committed_two_strong",
+  "claimed_state": "Verified Fact",
+  "context": {},
+  "evidence": [
+   {
+    "integrity_hash": "h",
+    "key_id": "cca2ba4e22252230",
+    "provenance": "A",
+    "record_id": "r1",
+    "result": true,
+    "signature": "uHGv4ubb3+J8gSB5EoUTxQB6g7o3B54LawChbyxf73TXOhmf9Lh5RYTOLOhvme6+8oLWn0u8PpXlNZP7gniFCA==",
+    "theta": 0.88,
+    "timestamp": "2026-09-06T12:00:00Z",
+    "verifier_id": "v1"
+   },
+   {
+    "integrity_hash": "h",
+    "key_id": "5360925ba455e21a",
+    "provenance": "B",
+    "record_id": "r2",
+    "result": true,
+    "signature": "R2WE1PZSoj7ZCiwSah6tmcTvALBUo06QUJH/BcsTQjcbCHDY2KEks9c8A38EAz9geYU/fRL0emSrq5aAoi74Dw==",
+    "theta": 0.85,
+    "timestamp": "2026-09-06T12:00:00Z",
+    "verifier_id": "v2"
+   }
+  ]
+ },
+ "use_test_registry": true
+}

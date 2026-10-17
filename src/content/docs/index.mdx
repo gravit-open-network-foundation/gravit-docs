@@ -1,0 +1,37 @@
+---
+title: "Gravit Docs"
+description: "Decisions about evidence that anyone can recheck. Start here."
+template: splash
+hero:
+  tagline: "Open tools to check claims and decisions, for people and for AI agents. Every result comes with proof you can verify yourself."
+  actions:
+    - text: First check in 5 minutes
+      link: /start/first-check/
+      icon: right-arrow
+    - text: Get a free API key
+      link: /start/get-key/
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Start with a task
+
+<CardGrid>
+	<LinkCard title="Run your first check" description="Send evidence, get a decision and a signed receipt." href="/start/first-check/" />
+	<LinkCard title="Get a free API key" description="1,000 checks a month, by email in one minute." href="/start/get-key/" />
+	<LinkCard title="Check a receipt offline" description="Prove a decision was not changed, without trusting us." href="/verifier/receipts/" />
+	<LinkCard title="Put a gate on an AI agent" description="Allow, require proof, or block each action." href="/agents/capability-gate/" />
+	<LinkCard title="Plans and payment" description="Free, Pro, Enterprise, Custom. Paid in Bitcoin, prices in CHF." href="/start/plans/" />
+	<LinkCard title="Read the standard" description="The open specification at the IETF behind every decision." href="/standard/gevp/" />
+</CardGrid>
+
+## The tools
+
+<CardGrid>
+	<Card title="Gravit Verifier" icon="approve-check">Decides what a claim may be called from signed, independent and fresh evidence. Python and Rust, 47 public test vectors.</Card>
+	<Card title="Capability Gate" icon="warning">Fail-closed permissions for AI agents: anything not listed is blocked; risky actions need a Verified Fact.</Card>
+	<Card title="Graviteron" icon="seti:pipeline">How strongly the evidence supports a claim, and how much evidence stands behind it.</Card>
+	<Card title="History Keeper" icon="document">Journals sealed with timestamps from independent authorities, so history cannot be quietly rewritten.</Card>
+</CardGrid>
