@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-	site: 'https://docs.gravit.world',
+	site: 'https://docs.gravit.space',
 	integrations: [
 		starlight({
 			title: 'Gravit Docs',
