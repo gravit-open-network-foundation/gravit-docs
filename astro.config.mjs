@@ -25,7 +25,7 @@ export default defineConfig({
 				{ label: 'Verifier and API', items: ['verifier/how-it-decides', 'verifier/api', 'verifier/sdk', 'verifier/receipts'] },
 				{ label: 'AI agents', items: ['agents/capability-gate'] },
 				{ label: 'Tools', items: ['tools/graviteron', 'tools/history-keeper', 'tools/gravit-path'] },
-				{ label: 'Standard and trust', items: ['standard/gevp', 'standard/corrections'] },
+				{ label: 'Standard and trust', items: ['standard/gevp', 'standard/repositories', 'standard/corrections'] },
 			],
 		}),
 	],

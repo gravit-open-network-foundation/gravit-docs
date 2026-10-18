@@ -14,7 +14,7 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 ## Start with a task
 
@@ -30,8 +30,10 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 ## The tools
 
 <CardGrid>
-	<Card title="Gravit Verifier" icon="approve-check">Decides what a claim may be called from signed, independent and fresh evidence. Python and Rust, 47 public test vectors.</Card>
-	<Card title="Capability Gate" icon="warning">Fail-closed permissions for AI agents: anything not listed is blocked; risky actions need a Verified Fact.</Card>
-	<Card title="Graviteron" icon="seti:pipeline">How strongly the evidence supports a claim, and how much evidence stands behind it.</Card>
-	<Card title="History Keeper" icon="document">Journals sealed with timestamps from independent authorities, so history cannot be quietly rewritten.</Card>
+	<LinkCard title="Gravit Verifier" description="Decides what a claim may be called from signed, independent and fresh evidence. Python and Rust, 47 public test vectors." href="/verifier/how-it-decides/" />
+	<LinkCard title="Capability Gate" description="Fail closed permissions for AI agents: anything not listed is blocked; risky actions need a Verified Fact." href="/agents/capability-gate/" />
+	<LinkCard title="Graviteron" description="How strongly the evidence supports a claim, and how much evidence stands behind it." href="/tools/graviteron/" />
+	<LinkCard title="History Keeper" description="Journals sealed with timestamps from independent authorities, so history cannot be quietly rewritten." href="/tools/history-keeper/" />
+	<LinkCard title="Gravit Path" description="Lawful routes to a company, club or non profit, with the official source next to every rule." href="/tools/gravit-path/" />
+	<LinkCard title="All code on GitHub" description="Every public repository and what it is for." href="/standard/repositories/" />
 </CardGrid>
