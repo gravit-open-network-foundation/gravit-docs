@@ -9,4 +9,4 @@ When someone finds an error in our work, we fix it in public and credit them, wi
 |---|---|---|---|
 | 12 Oct 2026 | The verifier ignored the signed result of evidence records: records signed "false" or "no verdict" could still give a Verified Fact | v0.6.0, rule CANON-RES-012, seven new test vectors | Iman Schrock, EMILIA Protocol |
 
-Found something? Write to [web@gravit.world](mailto:web@gravit.world) or open an issue on [GitHub](https://github.com/gravit-open-network-foundation).
+Found something? Write to us through the [contact form](https://gravit.world/contact/) or open an issue on [GitHub](https://github.com/gravit-open-network-foundation).
